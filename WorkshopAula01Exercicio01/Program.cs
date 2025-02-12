@@ -1,9 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.Write("Digite o valor inteiro de N1: ");
-var n1 = Convert.ToInt32(Console.ReadLine());
+int n1 = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Digite o valor inteiro de N2: ");
-var n2 = Convert.ToInt32(Console.ReadLine());
+int n2 = Convert.ToInt32(Console.ReadLine());
 
 Soma(n1, n2);
 Subtracao(n1, n2);
